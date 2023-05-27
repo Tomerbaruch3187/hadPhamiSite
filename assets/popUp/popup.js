@@ -10,4 +10,4 @@ const popup = document.querySelector('.popup');
         };
 
         // Automatically open the popup after 1 seconds
-        setTimeout(openPopup, 1000);
+        setTimeout(openPopup, 500);

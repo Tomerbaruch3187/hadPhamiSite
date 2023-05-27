@@ -297,7 +297,7 @@ body {
   left: 0;
   width: 100%;
   box-shadow: var(--shadow-1);
-  padding-block: 16px;
+  padding-block: 5px;
   background-color: var(--white);
   z-index: 4;
 }
