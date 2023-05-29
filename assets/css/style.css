@@ -2,9 +2,9 @@
   #main.css
 \*-----------------------------------*/
 
-/**
- * קרדיט 2022 codewithsadee
- */
+#active {
+  color: var(--navbar-activ);
+}
 
 
 /* icons */
@@ -23,7 +23,7 @@
   /**
    * colors
    */
-
+  --navbar-activ: rgb(228, 68, 68);
   --cultured: hsla(0, 0%, 97%, 1);
   --french-bistre: rgb(141, 141, 141);
   --jet: hsla(0, 0%, 20%, 1);
