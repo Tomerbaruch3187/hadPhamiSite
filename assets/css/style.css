@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 #active {
-  color: var(--navbar-activ);
+  color: var(--navbar-active);
 }
 
 
@@ -23,7 +23,7 @@
   /**
    * colors
    */
-  --navbar-activ: rgb(228, 68, 68);
+  --navbar-active: rgb(228, 68, 68);
   --cultured: hsla(0, 0%, 97%, 1);
   --french-bistre: rgb(141, 141, 141);
   --jet: hsla(0, 0%, 20%, 1);
@@ -341,10 +341,11 @@ body {
   height: 57vh;
   padding: 16px;
   z-index: 2;
-  visibility: hidden;
+  visibility: none;
   transition: 0.25s var(--cubic-in);
   border-radius: 0 0 0 40px;
 }
+
 
 .navbar.active {
   visibility: visible;
