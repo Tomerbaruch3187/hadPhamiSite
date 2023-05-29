@@ -333,20 +333,22 @@ body {
 .navbar {
   position: absolute;
   top: 0;
-  right: -350px;
-  max-width: 350px;
+  right: -150px;
+  max-width: 150px;
   width: 100%;
   background-color: var(--cultured);
-  height: 100vh;
+  opacity: 85%;
+  height: 48vh;
   padding: 16px;
   z-index: 2;
   visibility: hidden;
   transition: 0.25s var(--cubic-in);
+  border-radius: 0 0 0 40px;
 }
 
 .navbar.active {
   visibility: visible;
-  transform: translateX(-350px);
+  transform: translateX(-150px);
   transition: 0.5s var(--cubic-out);
 }
 
@@ -357,7 +359,7 @@ body {
   border: 1px solid var(--bistre);
   color: var(--bistre);
   padding: 8px;
-  border-radius: var(--radius-4);
+  border-radius: 20px 8px 15px 8px;
   margin-block-end: 24px;
 }
 
@@ -366,7 +368,7 @@ body {
   padding-block: 10px;
   color: var(--black);
   transition: var(--transition-1);
-  justify-content: flex-end;
+  text-align: right;
 }
 
 .navbar-link:is(:hover, :focus-visible) {
