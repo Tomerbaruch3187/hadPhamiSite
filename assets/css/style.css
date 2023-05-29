@@ -331,7 +331,7 @@ body {
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: -150px;
   max-width: 150px;
@@ -341,18 +341,16 @@ body {
   height: 57vh;
   padding: 16px;
   z-index: 2;
-  visibility: none;
-  transition: 0.25s var(--cubic-in);
+  visibility: hidden;
+  transition: transform 0.5s var(--cubic-out), visibility 0s linear 0.5s;
   border-radius: 0 0 0 40px;
 }
-
 
 .navbar.active {
   visibility: visible;
   transform: translateX(-150px);
-  transition: 0.5s var(--cubic-out);
+  transition: transform 0.5s var(--cubic-out), visibility 0s linear;
 }
-
 
 .nav-close-btn {
   margin-inline-end: auto;
