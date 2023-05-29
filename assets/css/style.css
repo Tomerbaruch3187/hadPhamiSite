@@ -333,12 +333,12 @@ body {
 .navbar {
   position: fixed;
   top: 0;
-  right: -150px;
-  max-width: 150px;
+  right: -200px;
+  max-width: 200px;
   width: 100%;
   background-color: var(--cultured);
   opacity: 85%;
-  height: 57vh;
+  height: 80vh;
   padding: 16px;
   z-index: 2;
   visibility: hidden;
@@ -348,7 +348,7 @@ body {
 
 .navbar.active {
   visibility: visible;
-  transform: translateX(-150px);
+  transform: translateX(-200px);
   transition: transform 0.5s var(--cubic-out), visibility 0s linear;
 }
 
@@ -368,6 +368,7 @@ body {
   color: var(--black);
   transition: var(--transition-1);
   text-align: right;
+  font-size: 0.85em;
 }
 
 .navbar-link:is(:hover, :focus-visible) {
@@ -980,7 +981,7 @@ body {
 
   .navbar-list {
     display: flex;
-    gap: 40px;
+    gap: 20px;
   }
 
   .navbar-link {
