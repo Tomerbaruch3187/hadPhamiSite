@@ -833,6 +833,8 @@ body {
 }
 
 
+
+
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
@@ -840,6 +842,13 @@ body {
 /**
  * responsive for large than 575px screen
  */
+
+@media (max-width: 420px) {
+  .font-size-label {
+    font-size: 30px;
+  }
+}
+
 
 @media (min-width: 575px) {
 
@@ -852,6 +861,7 @@ body {
     width: 100%;
     margin-inline: auto;
   }
+
 }
 
 
@@ -937,6 +947,7 @@ body {
  */
 
 @media (min-width: 992px) {
+
 
   /**
    * CUSTOM PROPERTY
@@ -1098,6 +1109,8 @@ body {
     padding: 60px 40px;
   }
 
+
+
 }
 
 
@@ -1184,6 +1197,8 @@ body {
   .footer-brand {
     padding-inline-end: 60px;
   }
+
+
 
 
 }
