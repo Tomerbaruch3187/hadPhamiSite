@@ -2,6 +2,13 @@
   #main.css
 \*-----------------------------------*/
 
+
+.collection-card .card-banner img {
+  width: 250px;
+  height: 280px;
+}
+
+
 #active {
   color: var(--navbar-active);
 }
@@ -845,7 +852,6 @@ body {
     width: 100%;
     margin-inline: auto;
   }
-
 }
 
 
