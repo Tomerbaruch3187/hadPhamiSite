@@ -375,7 +375,7 @@ body {
   color: var(--black);
   transition: var(--transition-1);
   text-align: right;
-  font-size: 0.75em;
+  font-size: 0.85em;
 }
 
 .navbar-link:is(:hover, :focus-visible) {
