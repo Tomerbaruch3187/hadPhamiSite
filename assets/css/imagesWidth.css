@@ -1,4 +1,8 @@
 @media (max-width: 500px) {
+    .navbar-link {
+        width: 168px;
+    }
+
     .collection-card .card-banner img {
         width: 130px;
         height: 130px;
