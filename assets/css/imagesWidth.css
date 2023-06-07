@@ -19,10 +19,6 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-
-    ul li {
-        width: 140px;
-    }
 }
 
 li div figure img {
