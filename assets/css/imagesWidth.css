@@ -1,0 +1,27 @@
+@media (max-width: 500px) {
+    .collection-card .card-banner img {
+        width: 130px;
+        height: 130px;
+        border-radius: 10px;
+    }
+
+    h3.card-title {
+        font-size: 1.3em;
+    }
+
+    .grid-list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    ul li {
+        width: 140px;
+    }
+}
+
+li div figure img {
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: 0.8;
+}

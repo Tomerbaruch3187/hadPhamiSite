@@ -847,10 +847,13 @@ body {
   .font-size-label {
     font-size: 30px;
   }
+
+
 }
 
 
 @media (min-width: 575px) {
+
 
   /**
    * REUSED STYLE
