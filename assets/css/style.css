@@ -407,13 +407,31 @@ body {
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
+.store-name-title {
+  padding-top: 30px;
+  font-size: 0.7em;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.hero-info-text {
+  font-weight: bold;
+  padding-bottom: 15px;
+  text-align: center;
+  margin-top: 80px;
+}
 
 .hero {
   padding-block-start: 150px;
 }
 
 .hero .container {
-  display: grid;
+  /* display: grid; */
   gap: 40px;
 }
 
@@ -982,6 +1000,10 @@ body {
   /**
    * HEADER
    */
+
+  .store-name-title {
+    letter-spacing: 20px;
+  }
 
   .nav-open-btn,
   .nav-close-btn,
