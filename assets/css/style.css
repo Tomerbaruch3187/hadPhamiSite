@@ -894,6 +894,9 @@ body {
  */
 
 @media (min-width: 768px) {
+  .display-hidin {
+    display: none;
+  }
 
   /**
    * CUSTOM PROPERTY
